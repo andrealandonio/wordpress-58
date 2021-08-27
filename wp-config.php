@@ -81,11 +81,11 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
-/* Add any custom values between this line and the "stop editing" line. */
-
-
-
-/* That's all, stop editing! Happy publishing. */
+// Custom settings
+define('AUTOMATIC_UPDATER_DISABLED', true);
+define('WP_POST_REVISIONS', 0);
+define('AUTOSAVE_INTERVAL', 1800);
+define('WP_AUTO_UPDATE_CORE', false);
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
